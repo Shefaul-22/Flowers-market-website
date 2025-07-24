@@ -36,11 +36,21 @@
   font-variation-settings:
     "wdth" 100;
 }
+/* For h1 and h2 heading */
  .noto-serif-bold {
   font-family: "Noto Serif", serif;
   font-optical-sizing: auto;
   font-weight: 700;
-  font-size: 3.1rem;
+  font-size: 3.2rem;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* For Latest deals heading */
+ .noto-serif-bold2 {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
@@ -220,8 +230,138 @@ main > section {
     margin: 133px 0px 120px 0px;
 }
 
-
-.latest-deals-text-container p {
+.latest-deals-images-container {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 367px calc(753px - 28px);
+    grid-template-rows: 201px 201px;
+    gap: 25px 28px;
+    
 
 }
+
+.latest-deals-images1 {
+    background-image: url(../images/deal-bloom.png);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.latest-deals-images2 {
+    background-image: url(../images/deal-zabo.png);
+    background-repeat: no-repeat;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-column: 2 / 4;
+    grid-row: 1 / 3;
+    border-radius: 22px;
+    background-color: rgba(0, 0, 0, 0.2);
+    background-blend-mode: darken;
+
+}
+.latest-deals-images3 {
+    background-image: url(../images/deal-ana.png);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.latest-deals-images1,  
+.latest-deals-images3 {
+    border-radius: 14px;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: darken;
    
+  
+}
+.latest-deals-images-container h4, a {
+
+    color: white;
+}
+.latest-deals-images1,  
+.latest-deals-images3 a {
+    font-size: 1rem;
+}
+  
+.latest-deals-images2 a {
+    font-size: 1.8rem;
+}
+.latest-deals-images2 h4 {
+    font-size: 2.5rem;
+}
+.latest-deals-images3 h4 {
+    font-size: 1.25rem;
+}
+.latest-deals-images1 h4 {
+    font-size: 1.25rem;
+}
+
+.join-colourful-container {
+    max-width: 1440px;
+    height: 533px;
+    margin-top: 120px;
+    background-image: url(../images/news-letter-bg.png);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.join-colourful-div h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 23px;
+}
+.join-colourful-div input {
+    padding: 16px 405px 16px 20px;
+    font-size: 1rem;
+}
+.subscribe-btn {
+    padding: 18px 54px;
+    margin-left: 0px;
+    color:white;
+    background-color: #E95A08;
+    border: none;
+    font-size: 1rem;
+}
+/* Footer section Styles */
+.footer {
+    max-width: 1440px;
+    height: 348px;
+    background-color: #FAFCFF;
+}
+.footer-container {
+    max-width: 1120px;
+    margin: 0px auto;
+    padding-top: 50px;
+    justify-content: space-between;
+}
+.footer-links1  ul {
+    list-style: none;
+}
+.footer-links2 ul {
+    list-style: none;
+}
+.footer-container a {
+    text-decoration: none;
+    margin-bottom: 32px;
+    font-size: 1rem;
+    color: #6B7280;
+
+}
+.footer-container li {
+    padding-bottom: 40px;
+}
+
+.footer-logo-container {
+    margin-right: 110px;
+}
+.social-icon {
+    height: 36px;
+    align-items: center;
+  
+    
+}
+.social-icon img {
+    padding-left: 24px ;
+}

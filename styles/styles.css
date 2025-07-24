@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* For paragraph and links, button text */
+.inter-regular {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.inter-medium {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.inter-semibold {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+.inter-bold {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+ /* For heading */
+ .noto-serif-regular {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+ .noto-serif-bold {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 3.1rem;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+* {
+     margin: 0;
+     padding: 0;
+}
+
+body {
+    background-color: #F5F8FF;
+}
+
+/* Shared styles */
+.display-flex {
+    display: flex;
+}
+
+main > section {
+    margin-top: 120px;
+   
+}
+.unique-text-color {
+    color: #E95A08;
+}
+.all-paragraph {
+    font-size: 1.4rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/* Header Styles */
+.header {
+    max-width: 1440px;
+}
+
+.navbar {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    padding-top: 30px;
+    margin-bottom: 120px;
+   
+
+}
+
+.nav-links {
+    align-items: center;
+    list-style: none;
+    
+}
+
+.nav-links a {
+    text-decoration: none;
+    margin-left: 48px;
+    
+}
+
+.nav-li1, .nav-li2, .nav-li3, .nav-li4 {
+    font-size: 1rem;
+
+}
+.nav-li1 {
+    color: #252432;
+}
+.nav-li2, .nav-li3 {
+    color: #8987A1;
+}
+.nav-li4 {
+    color: #000000;
+}
+
+/* Hero section styles */
+.hero-container {
+    max-width: 1140px;
+    max-height: 461px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 120px;
+}
+.hero-container h1 {
+    font-size: 4rem;
+}
+
+
+/* Our plants section styles */
+.our-plants-container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.our-plants-text-container {
+    margin: 0 auto;
+    text-align: center;
+}
+.our-plants-p {
+    padding: 0px 126px;
+    margin: 16px 0px 49px 0px;
+}
+
+.our-plants-card-container {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px 20px;
+}
+.our-plants-card {
+    width: 270px;
+    flex-direction: column;
+    text-align: center;
+   
+}
+.our-plants-card-p1 {
+    margin: 30px 0px 20px 0px;
+    padding: 0px;
+    color: #111111;
+    font-size: 1.4rem;
+    
+}
+.our-plants-card-p2 {
+    margin: 0px;
+    padding-bottom: 30px;
+    color: #111111;
+    font-size: 1.4rem;
+}
+.add-to-cart-btn{
+    margin: 0px;
+    padding: 19px 80px;
+    background-color: #E95A08;
+    color: #FFFFFF;
+    border: none;
+
+}
+
+/* Flowers and Plants lover styles */
+.flower-lover-container {
+    max-width: 1140px;
+    /* height: 597px; */
+    margin: 0 auto;
+    margin-top: 210px;
+    /* padding: 38px 0px; */
+    gap: 60px;
+    
+}
+.flower-lover-image {
+    width: 100%;
+    /* height: 597px; */
+   
+}
+.flower-lover-text-container h2 {
+    margin: 0px;
+    padding-top: 38px;
+}
+.flower-lover-text-container ul {
+    
+    margin: 0px;
+    padding-left: 30px;
+
+}
+.flower-lover-li {
+    margin: 0px;
+    padding: 20px 0px;
+}
+/* Latest deals styles */
+.latest-deals-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    
+}
+.latest-deals-text-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 16px;
+    margin: 133px 0px 120px 0px;
+}
+
+
+.latest-deals-text-container p {
+
+}
+   

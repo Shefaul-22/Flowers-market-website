@@ -157,15 +157,18 @@ button:hover {
 .hero-container {
     max-width: 1140px;
     margin: 0 auto;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
     margin-bottom: 120px;
 }
 
 .hero-heading-container h1 {
     font-size: 4rem;
-    width: 500px;
+    width: 576px;
 
+}
+.hero-heading-container p {
+    width: 540px;
 }
 
 
@@ -313,6 +316,7 @@ button:hover {
 
 .latest-deals-images1 {
     background-image: url(../images/deal-bloom.png);
+    background-repeat: no-repeat;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -334,6 +338,7 @@ button:hover {
 
 .latest-deals-images3 {
     background-image: url(../images/deal-ana.png);
+    background-repeat: no-repeat;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -474,7 +479,7 @@ a {
     main>header,
     section {
         max-width: 576px;
-        margin: 0 auto;
+        /* margin: 0 auto; */
     }
 
 
@@ -483,10 +488,13 @@ a {
     .our-plants-text-container,
     .our-plants-card-container,
     .flower-lover-text-container,
+    .latest-deals-container,
     .latest-deals-text-container,
     .latest-deals-images-container,
-    .flower-lover-image {
-        max-width: 470px;
+    .flower-lover-image
+    
+    {
+        max-width: 394px;
         margin: 0 auto;
     }
 
@@ -513,6 +521,11 @@ a {
         flex-direction: column-reverse;
     }
 
+    .hero-image {
+        width: 100%;
+        /* height: 245px; */
+    }
+
     .hero-heading-container h1 {
         margin-top: 28px;
         font-size: 1.5rem;
@@ -524,6 +537,7 @@ a {
 
     .hero-heading-container p {
         font-size: 0.9rem;
+        width: 370px;
     }
 
     .hero-heading-container {
@@ -531,6 +545,10 @@ a {
     }
 
     /* Our plants */
+
+    .our-plants-text-container {
+        margin-bottom: 28px;
+    }
     .our-plants-container h2 {
         font-size: 1.5rem;
     }
@@ -540,6 +558,7 @@ a {
         padding: 0px;
         font-size: 0.9rem;
         width: 336px;
+        margin: 0 auto;
         /* padding: 0px 10px; */
         text-align: center;
     }
@@ -551,7 +570,7 @@ a {
     }
 
     .our-plants-card {
-        max-width: 225px;
+        max-width: 184px;
         flex-direction: column;
         text-align: center;
 
@@ -589,7 +608,7 @@ a {
         margin: 0 auto; */
         flex-direction: column;
         gap: 0px;
-        margin-bottom: 70px;
+        /* margin-bottom: 70px; */
         margin-top: 0px;
     }
 
@@ -616,7 +635,7 @@ a {
     }
 
     .flower-lover-text-container {
-        width: 576px;
+        width: 394px;
     }
 
     /* Latest deals */
@@ -633,16 +652,15 @@ a {
 
 
     .latest-deals-text-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        /* max-width: 336px; */
+        margin: 0 auto;
         text-align: center;
         gap: 16px;
         margin: 133px 0px 52px 0px;
     }
 
     .latest-deals-images-container {
-        grid-template-columns: 470px;
+        grid-template-columns: 394px;
         grid-template-rows: 184px 184px 184px;
 
         gap: 20px;
@@ -658,6 +676,7 @@ a {
     .latest-deals-images3,
     .latest-deals-images2 {
         border-radius: 14px;
+        background-size: cover;
     }
 
     .latest-deals-images1,
@@ -685,7 +704,7 @@ a {
     }
 
     .join-colourful-div {
-        max-width: 470px;
+        max-width: 420px;
         margin: 0 auto;
     }
 
@@ -698,6 +717,7 @@ a {
 
     .join-colourful-div input {
         padding: 16px 12px 16px 20px;
+        max-width: 218px;
         font-size: 1rem;
     }
 
@@ -717,7 +737,7 @@ a {
 
 
     .footer-container {
-        max-width: 470px;
+        max-width: 394px;
         margin: 0px auto;
         margin-bottom: 50px;
         padding-top: 50px;

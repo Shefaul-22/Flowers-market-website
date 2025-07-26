@@ -280,17 +280,22 @@ button:hover {
 /* Latest deals styles */
 .latest-deals-container {
     max-width: 1440px;
-    margin: 0 auto;
+    
 
 }
 
 .latest-deals-text-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    width: 888px;
+    margin: 0px auto;
+    margin-top: 133px;
+    margin-bottom: 120px;
+
     text-align: center;
-    gap: 16px;
-    margin: 133px 0px 120px 0px;
+    /* gap: 16px; */
+    /* margin: 133px 0px 120px 0px; */
 }
 
 .latest-deals-text-container p {
@@ -467,7 +472,7 @@ a {
 
     main>header,
     section {
-        max-width: 394px;
+        max-width: 576px;
     }
 
 
@@ -480,7 +485,7 @@ a {
     .latest-deals-text-container,
     .latest-deals-images-container,
     .flower-lover-image {
-        max-width: 361px;
+        max-width: 470px;
         margin: 0 auto;
     }
 
@@ -537,10 +542,12 @@ a {
 
     .our-plants-card-container {
         grid-template-columns: repeat(2, 1fr);
+        gap: 29px 20px;
+        margin-bottom: 42px;
     }
 
     .our-plants-card {
-        width: 171px;
+        width: 250px;
         flex-direction: column;
         text-align: center;
 
@@ -574,9 +581,12 @@ a {
 
     /* Flowers & plants lover */
     .flower-lover-container {
+        /* max-width: 470px;
+        margin: 0 auto; */
         flex-direction: column;
         gap: 0px;
         margin-bottom: 70px;
+        margin-top: 0px;
     }
 
     .flower-lover-text-container h2 {
@@ -602,7 +612,7 @@ a {
     }
 
     .flower-lover-text-container {
-        width: 361px;
+        width: 576px;
     }
 
     /* Latest deals */
@@ -614,11 +624,9 @@ a {
         font-size: 0.9rem;
         text-align: center;
         width: 340px;
+        margin: 0 auto;
     }
 
-    .latest-deals-text-container {
-        margin-bottom: 52px;
-    }
 
     .latest-deals-text-container {
         display: flex;
@@ -626,11 +634,11 @@ a {
         justify-content: center;
         text-align: center;
         gap: 16px;
-        margin: 133px 0px 120px 0px;
+        margin: 133px 0px 52px 0px;
     }
 
     .latest-deals-images-container {
-        grid-template-columns: 361px;
+        grid-template-columns: 470px;
         grid-template-rows: 184px 184px 184px;
 
         gap: 20px;
@@ -640,6 +648,12 @@ a {
         grid-row: auto;
         grid-column: auto;
 
+    }
+
+    .latest-deals-images1,
+    .latest-deals-images3,
+    .latest-deals-images2 {
+        border-radius: 14px;
     }
 
     .latest-deals-images1,
@@ -655,7 +669,7 @@ a {
     }
 
     .join-colourful-container {
-        max-width: 394px;
+        max-width: 576px;
         height: 276px;
         margin-top: 41px;
         background-position: center;
@@ -666,7 +680,7 @@ a {
         align-items: center;
     }
     .join-colourful-div {
-        max-width: 390px;
+        max-width: 470px;
         margin: 0 auto;
     }
 
@@ -692,13 +706,13 @@ a {
     }
 
     .footer {
-        max-width: 394px;
+        max-width: 576px;
         height: 865px;
     }
 
 
     .footer-container {
-    max-width: 359px;
+    max-width: 470px;
     margin: 0px auto;
     margin-bottom: 50px;
     padding-top: 50px;
